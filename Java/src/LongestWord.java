@@ -1,9 +1,9 @@
 public class LongestWord {
 
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         String str="Biggest word in the sentence";
-        String strArr[]=str.split(" ");
+        String[] strArr =str.split(" ");
 
         String longestWord="";
         for (String word: strArr)
